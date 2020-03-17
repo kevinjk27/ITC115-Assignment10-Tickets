@@ -13,6 +13,6 @@ public class StudentAdvanceTickets extends AdvanceTickets {
 	}
 
 	public String toString() {
-		return "Student Advance Category Ticket number: " + ticketNumber + ", Price: $" + super.getTicketPrice();
+		return "Student Advance Ticket -> Ticket #" + ticketNumber + ", Price: $" + super.getTicketPrice() + " ID required!";
 	}
 }

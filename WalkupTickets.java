@@ -13,7 +13,7 @@ public class WalkupTickets extends Tickets {
 	}
 
 	public String toString() {
-		return "Walkup Category Ticket number: " + ticketNumber + ", Price: $" + getTicketPrice();
+		return "Walkup Ticket -> Ticket #" + ticketNumber + ", Price: $" + getTicketPrice();
 	}
 
 }

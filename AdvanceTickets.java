@@ -25,7 +25,7 @@ public class AdvanceTickets extends Tickets {
 	}
 
 	public String toString() {
-		return "Advance Ticket Category Ticket number: " + ticketNumber + ", Price: $" + super.getTicketPrice();
+		return "Advance Ticket -> Ticket #" + ticketNumber + ", Price: $" + super.getTicketPrice();
 	}
 
 }
